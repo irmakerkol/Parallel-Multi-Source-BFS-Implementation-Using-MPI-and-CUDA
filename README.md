@@ -23,5 +23,10 @@ For each group of source vertices (query), compute the minimum distances to all 
 - **Round-robin query distribution** for workload balancing
 - **Time measurement** for both preprocessing and computation
 
-## 📁 File Structure
+
+## 🧪 Usage
+
+```bash
+mpirun -np <num_ranks> ./main -g <graph.bin> -q <query.bin> -gn <num_GPUs>
+
 
